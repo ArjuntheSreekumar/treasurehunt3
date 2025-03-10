@@ -17,7 +17,7 @@ const Navbar = ({setShowLogin}) => {
         <a href="#footer" onClick={()=>setMenu("contact-us")} className={menu==="contact-us"?"active":""}>Contact Us</a>
        </ul>
        <div className="navbar-right">
-<button onClick={()=>setShowLogin(true)}>Submit</button>
+<button onClick={()=>setShowLogin(true)}>Login</button>
        </div>
     </div>
   )
